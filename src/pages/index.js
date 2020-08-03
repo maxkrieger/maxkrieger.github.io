@@ -53,7 +53,7 @@ const IndexPage = () => (
         title="How to see the unseeable"
         link="/seeing-the-unseeable"
         bg={unseeable}
-        kind={"activity"}
+        kind={"visualization exercise"}
         icon={playdoh}
       />
       <ProjectBox
@@ -74,7 +74,7 @@ const IndexPage = () => (
       />
       <ProjectBox
         title="Defining Visual Narratives for Mathematics Declaratively"
-        kind={"UIST Workshop Paper"}
+        kind={"workshop paper"}
         link="https://plateau-workshop.org/assets/papers-2019/9.pdf"
         bg={narrative}
         external={true}
