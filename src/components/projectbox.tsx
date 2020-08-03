@@ -10,7 +10,7 @@ library.add(faExternalLinkAlt)
 const ProjectBox: React.FC<{
   title: string
   external?: string
-  icon: string
+  icon?: string
   link: string
   bg: string
 }> = ({ title, external, icon, link, bg }) => (
@@ -26,7 +26,9 @@ const ProjectBox: React.FC<{
         marginTop: "30px",
       }}
     >
-      <img src={icon} height={100} style={{ verticalAlign: "middle" }} />
+      {icon && (
+        <img src={icon} height={100} style={{ verticalAlign: "middle" }} />
+      )}
       <div
         style={{
           display: "flex",

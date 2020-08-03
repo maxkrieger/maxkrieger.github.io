@@ -13,6 +13,10 @@ import latexIcon from "../images/latex-icon.svg"
 import latexBg from "../images/latex-screen.png"
 import turtle from "../images/turtle.svg"
 import mindBg from "../images/mind-bg.png"
+import narrative from "../images/narrative.png"
+import comicIcon from "../images/math-icon.svg"
+import playdoh from "../images/playdoh.png"
+import unseeable from "../images/unseeable.jpg"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -46,8 +50,8 @@ const IndexPage = () => (
       <ProjectBox
         title="How to see the unseeable"
         link="/seeing-the-unseeable"
-        bg={latexBg}
-        icon={latexIcon}
+        bg={unseeable}
+        icon={playdoh}
       />
       <ProjectBox
         title="Where is my mind? (situated)"
@@ -63,6 +67,18 @@ const IndexPage = () => (
         bg={latexBg}
         icon={latexIcon}
       />
+      <ProjectBox
+        title="Defining Visual Narratives for Mathematics Declaratively"
+        external={"UIST Workshop Paper"}
+        link="https://plateau-workshop.org/assets/papers-2019/9.pdf"
+        bg={narrative}
+        icon={comicIcon}
+      />
+      {/* <ProjectBox
+        title="Artifacts of the artificial"
+        link="https://plateau-workshop.org/assets/papers-2019/9.pdf"
+        bg={narrative}
+      /> */}
     </section>
     <section>
       <h2 className="divider">old</h2>
