@@ -32,14 +32,16 @@ const IndexPage = () => (
       <h2 className="divider">present</h2>
       <ProjectBox
         title="Penrose"
-        external={"diagramming tool"}
+        kind={"diagramming tool"}
         link="https://penrose.ink"
+        external={true}
         bg={penroseScreen}
         icon={penroseIcon}
       />
       <ProjectBox
         title="Chatting with Glue"
-        external={"comic"}
+        kind={"comic"}
+        external={true}
         link="http://a9.io/glue-comic/"
         bg={salienceMap}
         icon={sagaIcon}
@@ -51,27 +53,31 @@ const IndexPage = () => (
         title="How to see the unseeable"
         link="/seeing-the-unseeable"
         bg={unseeable}
+        kind={"activity"}
         icon={playdoh}
       />
       <ProjectBox
         title="Where is my mind? (situated)"
-        external={"fan music video"}
-        link="https://www.figma.com/community/plugin/793023817364007801/LaTeX-Complete"
+        kind={"fan music video"}
+        link="https://vimeo.com/389667501"
         bg={mindBg}
+        external={true}
         icon={turtle}
       />
       <ProjectBox
         title="LaTeX Complete"
-        external={"figma plugin"}
-        link="https://vimeo.com/389667501"
+        kind={"figma plugin"}
+        link="https://www.figma.com/community/plugin/793023817364007801/LaTeX-Complete"
         bg={latexBg}
+        external={true}
         icon={latexIcon}
       />
       <ProjectBox
         title="Defining Visual Narratives for Mathematics Declaratively"
-        external={"UIST Workshop Paper"}
+        kind={"UIST Workshop Paper"}
         link="https://plateau-workshop.org/assets/papers-2019/9.pdf"
         bg={narrative}
+        external={true}
         icon={comicIcon}
       />
       {/* <ProjectBox
@@ -84,16 +90,18 @@ const IndexPage = () => (
       <h2 className="divider">old</h2>
       <ProjectBox
         title="Semantic Calculator"
-        external={"experimental repl"}
+        kind={"experimental repl"}
         link="https://semantic.a9.io/"
         bg={semanticBg}
+        external={true}
         icon={semanticIcon}
       />
       <ProjectBox
         title="LiquidTime"
-        external={"time management tool"}
+        kind={"time tool"}
         link="https://liquidti.me"
         bg={liquidBg}
+        external={true}
         icon={liquidIcon}
       />
     </section>

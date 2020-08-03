@@ -9,11 +9,12 @@ library.add(faExternalLinkAlt)
 
 const ProjectBox: React.FC<{
   title: string
-  external?: string
+  kind: string
+  external?: boolean
   icon?: string
   link: string
   bg: string
-}> = ({ title, external, icon, link, bg }) => (
+}> = ({ title, kind, external, icon, link, bg }) => (
   <a href={link} style={{ textDecoration: "none" }}>
     <div
       style={{
@@ -37,17 +38,16 @@ const ProjectBox: React.FC<{
         }}
       >
         <h3>{title}</h3>
-        {external && (
-          <span
-            style={{
-              backgroundColor: "#FFFFFF",
-              borderRadius: "10px",
-              padding: "0 10px 0 10px",
-            }}
-          >
-            {external} <FontAwesomeIcon icon={["fas", "external-link-alt"]} />
-          </span>
-        )}
+        <span
+          style={{
+            backgroundColor: "#FFFFFF",
+            borderRadius: "10px",
+            padding: "0 10px 0 10px",
+          }}
+        >
+          {kind}{" "}
+          {external && <FontAwesomeIcon icon={["fas", "external-link-alt"]} />}
+        </span>
       </div>
     </div>
   </a>
