@@ -18,6 +18,8 @@ module.exports = {
     //     plugins: [`gatsby-remark-autolink-headers`],
     //   },
     // },
+    `gatsby-plugin-fontawesome-css`,
+    `@pauliescanlon/gatsby-mdx-embed`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
