@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/maxkrieger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://a9.io
+  * I am maxkrieger (https://keybase.io/maxkrieger) on keybase.
+  * I have a public key ASBmhMoFtnuFWmRAFUEnhp43mfasgPswXND1iB05VqEGAAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01206684ca05b67b855a6440154127869e3799f6ac80fb305cd0f5881d3956a106000a",
+            "host": "keybase.io",
+            "kid": "01206684ca05b67b855a6440154127869e3799f6ac80fb305cd0f5881d3956a106000a",
+            "uid": "d4d0411b363cce68c31d19ca7db7d819",
+            "username": "maxkrieger"
+        },
+        "service": {
+            "hostname": "a9.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486661394,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486661389,
+        "hash": "13e9c84b4855a7b244c25c585896f3b93d2045ce1b8640ec96fbf9d624f7eda031f0d0533ed0edda5a0930c38fcda52ef63a27af9854dbd4e48202941bac5b0c",
+        "seqno": 860148
+    },
+    "prev": "513beabc8b05985fa4c4335c1676e15b3fee1d24deb2db45f55f183f90f1c372",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZoTKBbZ7hVpkQBVBJ4aeN5n2rID7MFzQ9YgdOVahBgAKp3BheWxvYWTFAu57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjY4NGNhMDViNjdiODU1YTY0NDAxNTQxMjc4NjllMzc5OWY2YWM4MGZiMzA1Y2QwZjU4ODFkMzk1NmExMDYwMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjY4NGNhMDViNjdiODU1YTY0NDAxNTQxMjc4NjllMzc5OWY2YWM4MGZiMzA1Y2QwZjU4ODFkMzk1NmExMDYwMDBhIiwidWlkIjoiZDRkMDQxMWIzNjNjY2U2OGMzMWQxOWNhN2RiN2Q4MTkiLCJ1c2VybmFtZSI6Im1heGtyaWVnZXIifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImE5LmlvIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NjY2MTM5NCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg2NjYxMzg5LCJoYXNoIjoiMTNlOWM4NGI0ODU1YTdiMjQ0YzI1YzU4NTg5NmYzYjkzZDIwNDVjZTFiODY0MGVjOTZmYmY5ZDYyNGY3ZWRhMDMxZjBkMDUzM2VkMGVkZGE1YTA5MzBjMzhmY2RhNTJlZjYzYTI3YWY5ODU0ZGJkNGU0ODIwMjk0MWJhYzViMGMiLCJzZXFubyI6ODYwMTQ4fSwicHJldiI6IjUxM2JlYWJjOGIwNTk4NWZhNGM0MzM1YzE2NzZlMTViM2ZlZTFkMjRkZWIyZGI0NWY1NWYxODNmOTBmMWMzNzIiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEByPaKTh2IsoaGUnBr1T1UMnRo+cejIDN8HmTovdfCmHqT2HmDjZDGtkt8Uc2fIX0SxSjhgnwnZ2ZVJtyFZ6bUMqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgiiDPDOqpjtaVmpCY+p1AgYObbpc4tNmGCeo1YsD0yAmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/maxkrieger
+
+==================================================================
