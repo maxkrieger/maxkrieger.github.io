@@ -7,10 +7,11 @@ import {
   faGoodreadsG,
   faLinkedinIn,
   faGithub,
+  faMastodon,
 } from "@fortawesome/free-brands-svg-icons"
 import { library } from "@fortawesome/fontawesome-svg-core"
 
-library.add(faTwitter, faGoodreadsG, faLinkedinIn, faGithub)
+library.add(faTwitter, faGoodreadsG, faLinkedinIn, faGithub, faMastodon)
 
 const Header = ({ siteTitle }) => (
   <header
@@ -63,6 +64,9 @@ const Header = ({ siteTitle }) => (
         </a> */}
         <a href="https://github.com/maxkrieger">
           <FontAwesomeIcon icon={["fab", "github"]} />
+        </a>
+        <a rel="me" href="https://mastodon.social/@a9">
+          <FontAwesomeIcon icon={["fab", "mastodon"]} />
         </a>
       </div>
     </div>
