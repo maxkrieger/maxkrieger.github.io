@@ -26,7 +26,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <p style={{ fontWeight: 400 }}>
       I’m a student at Carnegie Mellon studying Cognitive Science and graduating
-      in 2021.
+      in 2021. <a href="/resume.pdf">resume</a>
+    </p>
+    <p>
+      📯 <pre style={{ display: "inline", padding: 0 }}>max@a9.io</pre>
     </p>
     <section>
       <h2 className="divider">present</h2>
