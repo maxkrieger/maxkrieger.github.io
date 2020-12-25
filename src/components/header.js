@@ -8,10 +8,18 @@ import {
   faLinkedinIn,
   faGithub,
   faMastodon,
+  faOrcid,
 } from "@fortawesome/free-brands-svg-icons"
 import { library } from "@fortawesome/fontawesome-svg-core"
 
-library.add(faTwitter, faGoodreadsG, faLinkedinIn, faGithub, faMastodon)
+library.add(
+  faTwitter,
+  faGoodreadsG,
+  faLinkedinIn,
+  faGithub,
+  faMastodon,
+  faOrcid
+)
 
 const Header = ({ siteTitle }) => (
   <header
@@ -65,8 +73,11 @@ const Header = ({ siteTitle }) => (
         <a href="https://github.com/maxkrieger">
           <FontAwesomeIcon icon={["fab", "github"]} />
         </a>
-        <a rel="me" href="https://mastodon.social/@a9">
+        {/* <a rel="me" href="https://mastodon.social/@a9">
           <FontAwesomeIcon icon={["fab", "mastodon"]} />
+        </a> */}
+        <a rel="me" href="https://orcid.org/0000-0002-2639-1084">
+          <FontAwesomeIcon icon={["fab", "orcid"]} />
         </a>
       </div>
     </div>
