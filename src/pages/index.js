@@ -31,6 +31,10 @@ const IndexPage = () => (
     <p>
       📯 <pre style={{ display: "inline", padding: 0 }}>max@a9.io</pre>
     </p>
+    <p>
+      Besides Twitter, you can find some other half-baked thoughts on my{" "}
+      <a href="/inquiry">inquiry page</a>.
+    </p>
     <section>
       <h2 className="divider">present</h2>
       <ProjectBox
