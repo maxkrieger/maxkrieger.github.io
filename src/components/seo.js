@@ -68,7 +68,20 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">{`
+        {
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "name": "Max Krieger",
+          "url": "https://a9.io",
+          "jobTitle": "Researcher",
+          "sameAs": [
+            "https://twitter.com/maxkriegers"
+          ]
+        }
+      `}</script>
+    </Helmet>
   )
 }
 
