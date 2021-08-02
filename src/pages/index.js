@@ -95,14 +95,14 @@ const IndexPage = () => (
     </section>
     <section>
       <h2 className="divider">old</h2>
-      <ProjectBox
+      {/* <ProjectBox
         title="Semantic Calculator"
         kind={"experimental repl"}
         link="https://semantic.a9.io/"
         bg={semanticBg}
         external={true}
         icon={semanticIcon}
-      />
+      /> */}
       <ProjectBox
         title="LiquidTime"
         kind={"time tool"}
