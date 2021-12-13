@@ -41,7 +41,7 @@ const IndexPage = () => (
         title="Voiceliner"
         kind={"voice notes app"}
         link="/voiceliner/"
-        external={false}
+        external={true}
         bg={voicelinerCover}
         icon={voicelinerIcon}
       />
