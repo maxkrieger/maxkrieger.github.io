@@ -55,7 +55,7 @@ module.exports = {
         background_color: `rgba(255, 254, 252)`,
         theme_color: `#FFF8E7`,
         display: `minimal-ui`,
-        icon: `/rainbow.png`, // This path is relative to the root of the site.
+        icon: `static/rainbow.png`, // This path is relative to the root of the site.
       },
     },
     {
