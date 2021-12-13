@@ -12,7 +12,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: rgba(255, 254, 252);
+  background-color: rgb(255, 254, 252);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

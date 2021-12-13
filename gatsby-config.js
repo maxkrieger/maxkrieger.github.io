@@ -49,13 +49,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Max Krieger`,
+        short_name: `Max Krieger`,
         start_url: `/`,
-        background_color: `#A9A9A9`,
-        theme_color: `#77D3B6`,
+        background_color: `rgba(255, 254, 252)`,
+        theme_color: `#FFF8E7`,
         display: `minimal-ui`,
-        // icon: `src/images/rainbow.png`, // This path is relative to the root of the site.
+        icon: `/rainbow.png`, // This path is relative to the root of the site.
       },
     },
     {

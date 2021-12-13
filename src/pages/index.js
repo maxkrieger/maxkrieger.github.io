@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import ProjectBox from "../components/projectbox"
+import voicelinerIcon from "../images/voiceliner.png"
+import voicelinerCover from "../images/voiceliner-cover.png"
 import penroseScreen from "../images/penrose-screen.png"
 import penroseIcon from "../images/pentagon.svg"
 import sagaIcon from "../images/saga-icon.png"
 import salienceMap from "../images/salience.png"
-import semanticIcon from "../images/semanticIcon.svg"
-import semanticBg from "../images/semantic-bg.png"
 import liquidBg from "../images/liquid.png"
 import liquidIcon from "../images/liquid-icon.svg"
 import latexIcon from "../images/latex-icon.svg"
@@ -37,6 +37,14 @@ const IndexPage = () => (
     </p>
     <section>
       <h2 className="divider">present</h2>
+      <ProjectBox
+        title="Voiceliner"
+        kind={"voice notes app"}
+        link="/voiceliner"
+        external={false}
+        bg={voicelinerCover}
+        icon={voicelinerIcon}
+      />
       <ProjectBox
         title="Penrose"
         kind={"diagramming tool"}
@@ -82,27 +90,14 @@ const IndexPage = () => (
       <ProjectBox
         title="Defining Visual Narratives for Mathematics Declaratively"
         kind={"workshop paper"}
-        link="https://plateau-workshop.org/assets/papers-2019/9.pdf"
+        link="krieger_plateau_2019.pdf"
         bg={narrative}
         external={true}
         icon={comicIcon}
       />
-      {/* <ProjectBox
-        title="Artifacts of the artificial"
-        link="https://plateau-workshop.org/assets/papers-2019/9.pdf"
-        bg={narrative}
-      /> */}
     </section>
     <section>
       <h2 className="divider">old</h2>
-      {/* <ProjectBox
-        title="Semantic Calculator"
-        kind={"experimental repl"}
-        link="https://semantic.a9.io/"
-        bg={semanticBg}
-        external={true}
-        icon={semanticIcon}
-      /> */}
       <ProjectBox
         title="LiquidTime"
         kind={"time tool"}
