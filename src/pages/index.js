@@ -40,7 +40,7 @@ const IndexPage = () => (
       <ProjectBox
         title="Voiceliner"
         kind={"voice notes app"}
-        link="/voiceliner"
+        link="/voiceliner/"
         external={false}
         bg={voicelinerCover}
         icon={voicelinerIcon}
