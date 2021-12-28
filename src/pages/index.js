@@ -21,6 +21,7 @@ import unseeable from "../images/unseeable.jpg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Callout from "../components/callout"
+import TinyList from "../components/tinyList"
 
 const IndexPage = () => (
   <Layout>
@@ -66,6 +67,10 @@ const IndexPage = () => (
         bg={salienceMap}
         icon={sagaIcon}
       />
+    </section>
+    <section>
+      <h2 className="divider">tiny stuff</h2>
+      <TinyList links={[["Cell Feed", "https://a9.io/gramstract/"]]} />
     </section>
     <section>
       <h2 className="divider">past</h2>
