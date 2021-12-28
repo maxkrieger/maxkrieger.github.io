@@ -20,6 +20,7 @@ import unseeable from "../images/unseeable.jpg"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Callout from "../components/callout"
 
 const IndexPage = () => (
   <Layout>
@@ -28,6 +29,10 @@ const IndexPage = () => (
       I'd like to construct environments that enable expressive, ambitious modes
       of learning and creating. <a href="/resume.pdf">resume</a>
     </p>
+    <Callout
+      outer="I'm open for freelance work in design, product, research, and devrel."
+      inner="I'm growing in these areas and would love to work with thoughtful, supportive teams. Particularly with  projects in creative and scientific spaces. Reach out if you've been working on something for a while and are looking for a fresh perspective!"
+    />
     <p>
       📯 <pre style={{ display: "inline", padding: 0 }}>max@a9.io</pre>
     </p>
