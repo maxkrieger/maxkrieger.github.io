@@ -32,7 +32,7 @@ const IndexPage = () => (
     </p>
     <Callout
       outer="I'm open for freelance work in design, product, research, and devrel."
-      inner="I'm growing in these areas and would love to work with thoughtful, supportive teams. Particularly with  projects in creative and scientific spaces. Reach out if you've been working on something for a while and are looking for a fresh perspective!"
+      inner="I'm growing in these areas and would love to work with thoughtful, supportive teams. Particularly with  projects in creative and scientific spaces. Reach out if you've been working on something for a while and are looking for a fresh perspective! I'm based in San Francisco for a while and especially love collaborating in-person."
     />
     <p>
       📯 <pre style={{ display: "inline", padding: 0 }}>max@a9.io</pre>
