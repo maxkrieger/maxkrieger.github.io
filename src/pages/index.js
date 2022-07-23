@@ -30,7 +30,6 @@ const IndexPage = () => (
       I care about accelerating human flourishing at the planetary level. My
       background is in user interface design and implementation. I'd like to
       make learning hard things indistinguishable from doing them for real.
-      <a href="/resume.pdf">resume</a>
     </p>
     {/* <Callout
       outer="I'm open for freelance work in design, product, research, and devrel."
