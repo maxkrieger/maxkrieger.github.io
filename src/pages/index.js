@@ -27,7 +27,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <p style={{ fontWeight: 400 }}>
-      I care about accelerating human flourishing at the planetary level. My
+      I care about enabling human flourishing at the planetary level, with universal access to abundance, beauty, and longevity. My
       background is in user interface design and implementation. I'd like to
       make learning hard things indistinguishable from doing them for real.
     </p>
@@ -36,7 +36,7 @@ const IndexPage = () => (
       inner="I'm growing in these areas and would love to work with thoughtful, supportive teams. Particularly with  projects in creative and scientific spaces. Reach out if you've been working on something for a while and are looking for a fresh perspective! I'm based in San Francisco for a while and especially love collaborating in-person."
     /> */}
     <p>
-      📯 <pre style={{ display: "inline", padding: 0 }}>max@a9.io</pre>
+      📯 <pre style={{ display: "inline", padding: 0 }}>(contact via twitter DM)</pre>
     </p>
     <p>
       Besides Twitter, you can find some other half-baked thoughts on my{" "}
@@ -52,6 +52,13 @@ const IndexPage = () => (
         bg={voicelinerCover}
         icon={voicelinerIcon}
       />
+    </section>
+    <section>
+      <h2 className="divider">tiny stuff</h2>
+      <TinyList links={[["Cell Feed", "https://a9.io/gramstract/"]]} />
+    </section>
+    <section>
+      <h2 className="divider">past</h2>
       <ProjectBox
         title="Penrose"
         kind={"diagramming tool"}
@@ -68,13 +75,6 @@ const IndexPage = () => (
         bg={salienceMap}
         icon={sagaIcon}
       />
-    </section>
-    <section>
-      <h2 className="divider">tiny stuff</h2>
-      <TinyList links={[["Cell Feed", "https://a9.io/gramstract/"]]} />
-    </section>
-    <section>
-      <h2 className="divider">past</h2>
       <ProjectBox
         title="How to see the unseeable"
         link="/seeing-the-unseeable"
