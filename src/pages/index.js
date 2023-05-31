@@ -17,6 +17,8 @@ import narrative from "../images/narrative.png"
 import comicIcon from "../images/math-icon.svg"
 import playdoh from "../images/playdoh.png"
 import unseeable from "../images/unseeable.jpg"
+import gripperBg from "../images/gripper-bg.png"
+import gripper from "../images/gripper.svg"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -27,16 +29,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <p style={{ fontWeight: 400 }}>
-      I care about enabling human flourishing at the planetary level, with universal access to abundance, beauty, and longevity. My
-      background is in user interface design and implementation. I'd like to
-      make learning hard things indistinguishable from doing them for real.
+      I care about enabling human flourishing at the planetary level, with
+      universal access to abundance, beauty, and longevity. My background is in
+      user interface design and implementation. I'd like to make learning hard
+      things indistinguishable from doing them for real.
     </p>
     {/* <Callout
       outer="I'm open for freelance work in design, product, research, and devrel."
       inner="I'm growing in these areas and would love to work with thoughtful, supportive teams. Particularly with  projects in creative and scientific spaces. Reach out if you've been working on something for a while and are looking for a fresh perspective! I'm based in San Francisco for a while and especially love collaborating in-person."
     /> */}
     <p>
-      📯 <pre style={{ display: "inline", padding: 0 }}>(contact via twitter DM)</pre>
+      📯{" "}
+      <pre style={{ display: "inline", padding: 0 }}>
+        (contact via twitter DM)
+      </pre>
     </p>
     <p>
       Besides Twitter, you can find some other half-baked thoughts on my{" "}
@@ -45,12 +51,12 @@ const IndexPage = () => (
     <section>
       <h2 className="divider">present</h2>
       <ProjectBox
-        title="Voiceliner"
-        kind={"voice notes app"}
-        link="/voiceliner/"
-        external={true}
-        bg={voicelinerCover}
-        icon={voicelinerIcon}
+        title="Gripper"
+        kind="don't code"
+        link="https://gripper.dev"
+        bg={gripperBg}
+        icon={gripper}
+        external
       />
     </section>
     <section>
@@ -59,6 +65,14 @@ const IndexPage = () => (
     </section>
     <section>
       <h2 className="divider">past</h2>
+      <ProjectBox
+        title="Voiceliner"
+        kind={"voice notes app"}
+        link="/voiceliner/"
+        external={true}
+        bg={voicelinerCover}
+        icon={voicelinerIcon}
+      />
       <ProjectBox
         title="Penrose"
         kind={"diagramming tool"}
