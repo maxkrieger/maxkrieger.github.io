@@ -1,8 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import ProjectBox from "../components/projectbox"
 import voicelinerIcon from "../images/voiceliner.png"
 import voicelinerCover from "../images/voiceliner-cover.png"
+import spaceshifterIcon from "../images/spaceshifter-icon.png"
+import spaceshifterCover from "../images/spaceshifter-bg.png"
+import catchmeCover from "../images/catchMeCover.png"
+import catchmeIcon from "../images/catchmeLogo.png"
 import penroseScreen from "../images/penrose-screen.png"
 import penroseIcon from "../images/pentagon.svg"
 import sagaIcon from "../images/saga-icon.png"
@@ -51,12 +54,12 @@ const IndexPage = () => (
     <section>
       <h2 className="divider">present</h2>
       <ProjectBox
-        title="Gripper"
-        kind="don't code"
-        link="https://gripper.dev"
-        bg={gripperBg}
-        icon={gripper}
-        external
+        title="catchMe"
+        kind={"get caught"}
+        link="https://catchme.life"
+        external={true}
+        bg={catchmeCover}
+        icon={catchmeIcon}
       />
     </section>
     <section>
@@ -65,6 +68,14 @@ const IndexPage = () => (
     </section>
     <section>
       <h2 className="divider">past</h2>
+      <ProjectBox
+        title="Spaceshifter"
+        kind={"tune embeddings"}
+        link="/spaceshifter/"
+        external={true}
+        bg={spaceshifterCover}
+        icon={spaceshifterIcon}
+      />
       <ProjectBox
         title="Voiceliner"
         kind={"voice notes app"}
