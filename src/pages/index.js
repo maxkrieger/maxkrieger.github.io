@@ -34,7 +34,7 @@ const IndexPage = () => (
     <p style={{ fontWeight: 400 }}>
       I care about enabling human flourishing at the planetary level, with
       universal access to abundance, beauty, and longevity. My background is in
-      user interface design and implementation. I'd like to make learning hard
+      interaction design and implementation. I'd like to make learning hard
       things indistinguishable from doing them for real.
     </p>
     {/* <Callout
