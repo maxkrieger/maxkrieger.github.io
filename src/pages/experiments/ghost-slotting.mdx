@@ -1,0 +1,23 @@
+---
+path: /experiments/ghost-slotting
+date: 2024-01-15
+title: Experiment - Ghost Slotting
+---
+
+# Ghost Slotting
+
+import Video from "../../components/video";
+
+<Video src="videos/ghost.mp4" />
+
+What does autocompletion a la [Copilot](https://github.com/features/copilot) look like in a spatial design canvas?
+
+A naive interpretation would resemble Copilot's "typeahead" interaction, surfacing a whole hypothetical design on top of the very same canvas, then accept it en masse. This seemed distracting and unintuitive to me.
+
+When designing, I have specific "regions of interest" on the canvas at any given moment. I might be designing a list item, having drawn the container and planning to populate it with content. I would want to communicate my future intentions to a copilot spatially, mousing over regions I'd like it to populate.
+
+I built a proto-design tool in which completions only appeared when activating a "completion mode". The shapes generated appear subtly as "ghost-slots", which you can mouse over in regions of interest to preview and commit them to the design.
+
+These slots unobtrusively layer on top of the canvas. They communicate regions of potential intent, but don't presume the content underneath until the user confirms the intent.
+
+The system used GPT-4, which performed impressively on spatial reasoning with a coordinate-based encoding of the design, but was rather slow to generate. I suspect that a specialized, faster model could supplement a significant fraction of my design edits.

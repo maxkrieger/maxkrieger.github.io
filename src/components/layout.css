@@ -34,7 +34,7 @@ section {
   margin-bottom: 50px;
 }
 footer {
-  margin-top: 1em;
+  margin-top: 100px;
 }
 audio,
 canvas,
@@ -57,6 +57,8 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   color: #312d05;
+  opacity: 1;
+  transition: opacity 0.2s;
 }
 a:active,
 a:hover {

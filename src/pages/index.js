@@ -23,6 +23,9 @@ import unseeable from "../images/unseeable.jpg"
 import gripperBg from "../images/gripper-bg.png"
 import gripper from "../images/gripper.svg"
 import joinery from "../images/joinery.png"
+import library from "../images/library.png"
+import gripperScreen from "../images/gripper-screen.png"
+import ghost from "../images/ghost.png"
 
 import SEO from "../components/seo"
 import Experiment from "../components/experiment"
@@ -62,8 +65,35 @@ function IndexPage() {
       </section>
       <section>
         <h2 className="divider">experiments</h2>
-        <div>
-          <Experiment title="joinery" image={joinery} slug="joinery" />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "20px",
+            flexWrap: "wrap",
+            justifyContent: "center",
+          }}
+        >
+          <Experiment
+            title="joinery"
+            image={joinery}
+            slug="experiments/joinery"
+          />
+          <Experiment
+            title="library of worlds"
+            image={library}
+            slug="experiments/library-of-worlds"
+          />
+          <Experiment
+            title="ghost slotting"
+            image={ghost}
+            slug="experiments/ghost-slotting"
+          />
+          <Experiment
+            title="gripper"
+            image={gripperScreen}
+            slug="experiments/gripper"
+          />
         </div>
       </section>
       <section>

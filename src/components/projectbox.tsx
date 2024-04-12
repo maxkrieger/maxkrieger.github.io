@@ -18,11 +18,12 @@ const InnerProjectBox: React.FC<any> = ({
 }) => (
   <div
     style={{
-      border: "1px dashed #312D05",
+      outline: "1px dashed #312D05",
       borderRadius: "10px",
       backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 1),70%, rgba(255, 255, 255, 0)),
         url(${bg})`,
       backgroundSize: "cover",
+      backgroundPosition: "left",
       padding: "1em 1em 1em 1em",
       marginTop: "30px",
     }}

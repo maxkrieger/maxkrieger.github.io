@@ -1,0 +1,25 @@
+---
+path: /experiments/gripper
+date: 2023-05-29
+title: Experiment - Gripper
+---
+
+# Gripper
+
+import Video from "../../components/video";
+
+<Video src="videos/gripper.mp4" />
+
+I built Gripper when I realized that the context windows of frontier language models were long enough to fit a small webapp's codebase.
+
+What does the software engineering process look like when *all* codebases fit in a context window like that?
+
+In my view, a code-writing tool would look a lot like a self-fulfilling to-do list. Nobody can produce a complete specification of what they want upfront. They need to add features iteratively; a feedback loop of specifying changes, running them, and staging them.
+
+Gripper was designed with a few features that I felt were missing from existing code generation systems:
+
+* A task-based representation of the software engineering process
+* A live, observable log of actions taken that resembles the activity of a human software engineer (opening and editing files, settling on a change proposal)
+* A "staging" model on top of Git that affords easy rollback of faulty generations
+
+Many code editing tasks can now be performed entirely by language models, we just have to situate them in the right steps of the engineering process. We aren't lacking the model capabilities for these tasks, but the sociotechnical substrate in which they can smoothly contribute to a project. Somewhere in between opening a lengthy GitHub issue and a Copilot autocompletion. Something iterative, but at a humane level of abstraction.
