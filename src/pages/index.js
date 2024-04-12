@@ -22,10 +22,10 @@ import playdoh from "../images/playdoh.png"
 import unseeable from "../images/unseeable.jpg"
 import gripperBg from "../images/gripper-bg.png"
 import gripper from "../images/gripper.svg"
+import joinery from "../images/joinery.png"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Callout from "../components/callout"
+import Experiment from "../components/experiment"
 import TinyList from "../components/tinyList"
 
 function IndexPage() {
@@ -38,7 +38,7 @@ function IndexPage() {
     }, 200)
   }, [])
   return (
-    <Layout>
+    <>
       <SEO title="Home" />
       <p style={{ fontWeight: 400 }}>
         I care about enabling human flourishing at the planetary level, with
@@ -46,10 +46,6 @@ function IndexPage() {
         in interaction design and implementation. I'd like to make learning hard
         things indistinguishable from doing them for real.
       </p>
-      {/* <Callout
-      outer="I'm open for freelance work in design, product, research, and devrel."
-      inner="I'm growing in these areas and would love to work with thoughtful, supportive teams. Particularly with  projects in creative and scientific spaces. Reach out if you've been working on something for a while and are looking for a fresh perspective! I'm based in San Francisco for a while and especially love collaborating in-person."
-    /> */}
       <p style={{ textAlign: "right", marginTop: -20 }}>
         <span id="horn" style={{ color: "rgba(0,0,0,0.6)" }}></span>
       </p>
@@ -65,8 +61,10 @@ function IndexPage() {
         />
       </section>
       <section>
-        <h2 className="divider">tiny stuff</h2>
-        <TinyList links={[["Cell Feed", "https://a9.io/gramstract/"]]} />
+        <h2 className="divider">experiments</h2>
+        <div>
+          <Experiment title="joinery" image={joinery} slug="joinery" />
+        </div>
       </section>
       <section>
         <h2 className="divider">past</h2>
@@ -135,6 +133,10 @@ function IndexPage() {
         />
       </section>
       <section>
+        <h2 className="divider">tiny stuff</h2>
+        <TinyList links={[["Cell Feed", "https://a9.io/gramstract/"]]} />
+      </section>
+      <section>
         <h2 className="divider">old</h2>
         <ProjectBox
           title="LiquidTime"
@@ -145,7 +147,7 @@ function IndexPage() {
           icon={liquidIcon}
         />
       </section>
-    </Layout>
+    </>
   )
 }
 
