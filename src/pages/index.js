@@ -34,7 +34,9 @@ import TinyList from "../components/tinyList"
 function IndexPage() {
   useEffect(() => {
     setTimeout(() => {
-      document.getElementById("horn").innerHTML = atob("b2kuOWFAeGFt")
+      document.getElementById("horn").innerHTML = atob(
+        "PmEvPG9pLjlhQHhhbT4ib2kuOWFAeGFtOm90bGlhbSI9ZmVyaCBhPA=="
+      )
         .split("")
         .reverse()
         .join("")
