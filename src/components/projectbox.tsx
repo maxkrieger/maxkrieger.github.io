@@ -20,35 +20,28 @@ const InnerProjectBox: React.FC<any> = ({
     style={{
       outline: "1px dashed #312D05",
       borderRadius: "10px",
-      backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 1),70%, rgba(255, 255, 255, 0)),
+      backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 1), 70%, rgba(255, 255, 255, 0)),
         url(${bg})`,
       backgroundSize: "cover",
       backgroundPosition: "left",
-      padding: "1em 1em 1em 1em",
+      padding: "12px 16px",
+      height: "170px",
       marginTop: "30px",
     }}
   >
-    {icon && (
-      <img src={icon} height={100} style={{ verticalAlign: "middle" }} />
-    )}
     <div
       style={{
         display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        justifyContent: "flex-end",
+        gap: 5,
+        height: "100%",
+        maxWidth: "70%",
       }}
     >
-      <h3>{title}</h3>
-      <span
-        style={{
-          backgroundColor: "#FFFFFF",
-          borderRadius: "10px",
-          padding: "0 10px 0 10px",
-        }}
-      >
-        {kind}{" "}
-        {external && <FontAwesomeIcon icon={["fas", "external-link-alt"]} />}
-      </span>
+      <h3 style={{ fontSize: "24px", fontWeight: 500 }}>{title}</h3>
+      <p style={{ margin: 0 }}>{kind}</p>
     </div>
   </div>
 )

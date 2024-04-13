@@ -25,8 +25,8 @@ export default function Experiment({
           style={{
             objectFit: "cover",
             objectPosition: "center",
-            height: "150px",
-            width: "200px",
+            width: "100%",
+            aspectRatio: "4/3",
             borderRadius: "10px",
             overflow: "hidden",
             outline: "1px dashed #312D05",

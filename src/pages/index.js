@@ -53,25 +53,37 @@ function IndexPage() {
         <span id="horn" style={{ color: "rgba(0,0,0,0.6)" }}></span>
       </p>
       <section>
-        <h2 className="divider">present</h2>
         <ProjectBox
           title="catchMe"
-          kind={"get caught"}
+          kind={"social goals app"}
           link="https://catchme.life"
           external={true}
           bg={catchmeCover}
           icon={catchmeIcon}
         />
+        <ProjectBox
+          title="Spaceshifter"
+          kind={"embedding tuning tool"}
+          link="/spaceshifter/"
+          external={true}
+          bg={spaceshifterCover}
+          icon={spaceshifterIcon}
+        />
+        <ProjectBox
+          title="Voiceliner"
+          kind={"voice notes app"}
+          link="/voiceliner/"
+          external={true}
+          bg={voicelinerCover}
+          icon={voicelinerIcon}
+        />
       </section>
       <section>
-        <h2 className="divider">experiments</h2>
         <div
           style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "20px",
-            flexWrap: "wrap",
-            justifyContent: "center",
+            display: "grid",
+            gridTemplateColumns: "repeat(2, 1fr)",
+            gap: 20,
           }}
         >
           <Experiment
@@ -97,26 +109,9 @@ function IndexPage() {
         </div>
       </section>
       <section>
-        <h2 className="divider">past</h2>
-        <ProjectBox
-          title="Spaceshifter"
-          kind={"tune embeddings"}
-          link="/spaceshifter/"
-          external={true}
-          bg={spaceshifterCover}
-          icon={spaceshifterIcon}
-        />
-        <ProjectBox
-          title="Voiceliner"
-          kind={"voice notes app"}
-          link="/voiceliner/"
-          external={true}
-          bg={voicelinerCover}
-          icon={voicelinerIcon}
-        />
         <ProjectBox
           title="Penrose"
-          kind={"diagramming tool"}
+          kind={"diagramming system"}
           link="https://penrose.ink"
           external={true}
           bg={penroseScreen}
@@ -124,7 +119,7 @@ function IndexPage() {
         />
         <ProjectBox
           title="Chatting with Glue"
-          kind={"comic"}
+          kind={"speculative interface comic"}
           external={true}
           link="http://a9.io/glue-comic/"
           bg={salienceMap}
@@ -134,7 +129,7 @@ function IndexPage() {
           title="How to see the unseeable"
           link="/seeing-the-unseeable"
           bg={unseeable}
-          kind={"visualization exercise"}
+          kind={"visualization workshop"}
           icon={playdoh}
         />
         <ProjectBox
@@ -147,7 +142,7 @@ function IndexPage() {
         />
         <ProjectBox
           title="LaTeX Complete"
-          kind={"figma plugin"}
+          kind={"mathematical figma plugin"}
           link="https://www.figma.com/community/plugin/793023817364007801/LaTeX-Complete"
           bg={latexBg}
           external={true}
@@ -161,16 +156,9 @@ function IndexPage() {
           external={true}
           icon={comicIcon}
         />
-      </section>
-      <section>
-        <h2 className="divider">tiny stuff</h2>
-        <TinyList links={[["Cell Feed", "https://a9.io/gramstract/"]]} />
-      </section>
-      <section>
-        <h2 className="divider">old</h2>
         <ProjectBox
           title="LiquidTime"
-          kind={"time tool"}
+          kind={"time tool (2016)"}
           link="https://liquidti.me"
           bg={liquidBg}
           external={true}
