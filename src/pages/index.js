@@ -79,13 +79,12 @@ function IndexPage() {
           bg={voicelinerCover}
           icon={voicelinerIcon}
         />
-      </section>
-      <section>
         <div
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(2, 1fr)",
             gap: 20,
+            marginTop: "30px",
           }}
         >
           <Experiment
@@ -109,8 +108,6 @@ function IndexPage() {
             slug="experiments/gripper"
           />
         </div>
-      </section>
-      <section>
         <ProjectBox
           title="Penrose"
           kind={"diagramming system"}
@@ -121,7 +118,7 @@ function IndexPage() {
         />
         <ProjectBox
           title="Chatting with Glue"
-          kind={"speculative interface comic"}
+          kind={"interface comic"}
           external={true}
           link="http://a9.io/glue-comic/"
           bg={salienceMap}
@@ -144,7 +141,7 @@ function IndexPage() {
         />
         <ProjectBox
           title="LaTeX Complete"
-          kind={"mathematical figma plugin"}
+          kind={"figma plugin"}
           link="https://www.figma.com/community/plugin/793023817364007801/LaTeX-Complete"
           bg={latexBg}
           external={true}
