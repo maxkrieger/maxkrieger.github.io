@@ -26,6 +26,7 @@ import joinery from "../images/joinery.png"
 import library from "../images/library.png"
 import gripperScreen from "../images/gripper-screen.png"
 import ghost from "../images/ghost.png"
+import delve from "../images/delveCover.png"
 
 import SEO from "../components/seo"
 import Experiment from "../components/experiment"
@@ -55,6 +56,13 @@ function IndexPage() {
         <span id="horn" style={{ color: "rgba(0,0,0,0.6)" }}></span>
       </p>
       <section>
+        <ProjectBox
+          title="delve"
+          kind={"rabbit hole interface"}
+          link="https://delve.a9.io"
+          external={true}
+          bg={delve}
+        />
         <ProjectBox
           title="catchMe"
           kind={"social goals app"}
