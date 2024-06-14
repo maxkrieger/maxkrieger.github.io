@@ -35,12 +35,10 @@ import TinyList from "../components/tinyList"
 function IndexPage() {
   useEffect(() => {
     setTimeout(() => {
-      document.getElementById("horn").innerHTML = atob(
-        "PmEvPG9pLjlhQHhhbT4ib2kuOWFAeGFtOm90bGlhbSI9ZmVyaCBhPA=="
-      )
-        .split("")
-        .reverse()
-        .join("")
+      const e = atob("b2kuOWFAb2xsZWg=").split("").reverse().join("")
+      document.getElementById(
+        "horn"
+      ).innerHTML = `<a href="mailto:${e}">${e}</a>`
     }, 200)
   }, [])
   return (
@@ -53,7 +51,9 @@ function IndexPage() {
         things indistinguishable from doing them for real.
       </p>
       <p style={{ textAlign: "right", marginTop: -20 }}>
-        <span id="horn" style={{ color: "rgba(0,0,0,0.6)" }}></span>
+        <span id="horn" style={{ color: "rgba(0,0,0,0.6)" }}>
+          &nbsp;
+        </span>
       </p>
       <section>
         <ProjectBox
@@ -100,16 +100,16 @@ function IndexPage() {
             image={joinery}
             slug="experiments/joinery"
           />
-          <Experiment
+          {/* <Experiment
             title="library of worlds"
             image={library}
             slug="experiments/library-of-worlds"
-          />
-          <Experiment
-            title="ghost slotting"
-            image={ghost}
-            slug="experiments/ghost-slotting"
-          />
+          /> */}
+          {/* <Experiment */}
+          {/* title="ghost slotting" */}
+          {/* image={ghost} */}
+          {/* // slug="experiments/ghost-slotting" */}
+          {/* /> */}
           <Experiment
             title="gripper"
             image={gripperScreen}
