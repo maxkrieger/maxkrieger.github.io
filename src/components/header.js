@@ -39,43 +39,33 @@ const Header = ({ siteTitle }) => (
         alignItems: "flex-end",
       }}
     >
-      <h1
-        style={{
-          margin: 0,
-          fontFamily: "Chicago Plain",
-        }}
-      >
-        <Link
-          to="/"
+      <div style={{ flex: 1 }}>
+        <h1
           style={{
-            color: `#312D05`,
-            textDecoration: `none`,
+            margin: 0,
+            fontFamily: "Chicago Plain",
           }}
         >
-          {siteTitle}
-        </Link>
-      </h1>
+          <Link
+            to="/"
+            style={{
+              color: `#312D05`,
+              textDecoration: `none`,
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </h1>
+      </div>
       <div
         style={{
           fontSize: "1.2rem",
         }}
         className="iconsheet"
       >
-        <a href="https://twitter.com/maxkriegers">
-          <FontAwesomeIcon icon={["fab", "twitter"]} />
-        </a>
-        <a href="https://www.goodreads.com/maxkrieger">
-          <FontAwesomeIcon icon={["fab", "goodreads-g"]} />
-        </a>
-        {/* <a href="https://www.linkedin.com/in/max-krieger/">
-          <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-        </a> */}
         <a href="https://github.com/maxkrieger">
           <FontAwesomeIcon icon={["fab", "github"]} />
         </a>
-        {/* <a rel="me" href="https://mastodon.social/@a9">
-          <FontAwesomeIcon icon={["fab", "mastodon"]} />
-        </a> */}
         <a rel="me" href="https://orcid.org/0000-0002-2639-1084">
           <FontAwesomeIcon icon={["fab", "orcid"]} />
         </a>
